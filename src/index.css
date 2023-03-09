@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --blue-500: #2dbcfa;
+
+  --green-500: #13c725;
+  --white: #fff;
+
+  --radius: 5px;
+  --box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: var(--green-500);
+}
+h2 {
+  color: #2dbcfa;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

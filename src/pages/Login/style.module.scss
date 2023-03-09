@@ -1,0 +1,44 @@
+.loginPage {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+
+  background-color: whitesmoke;
+
+  display: grid;
+  grid-template-columns: 1fr 38rem;
+
+  .background {
+    background: url("../../assets/img/analysis-hospital-doctor-medical-genetic-dna-1451109-pxhere.com.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .userView {
+    width: 100%;
+    background-color: white;
+    padding: 4rem;
+
+    display: grid;
+    place-items: center;
+  }
+
+  section {
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr;
+
+    .background {
+      display: none;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .userView {
+      padding: 0;
+    }
+  }
+}
